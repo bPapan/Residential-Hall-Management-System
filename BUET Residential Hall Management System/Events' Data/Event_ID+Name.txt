@@ -1,0 +1,4 @@
+1,'Hall Fest'
+2,'Batch Naming Fest'
+3,'Freshers Reception'
+4,'Iftar Party'

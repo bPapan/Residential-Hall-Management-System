@@ -1,0 +1,5 @@
+1,'Hall Basketball','1st Round' 
+2,'Hall Basketball','1st Round'
+3,'Hall Football','1st Round'
+4,'Hall Cricket','1st Round'
+5,'Hall Voleyball','Semi-Final'

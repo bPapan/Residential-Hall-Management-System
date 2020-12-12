@@ -1,0 +1,338 @@
+INSERT INTO STUDENTS
+VALUES('S201201030','Barsha','Akash','Sabrin','Female','Muslim','26962','A+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201201018','Shamim','Sumon','Asma','Male','Muslim','04827','B+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201201023','Hridi','Zahir','Aziza','Female','Muslim','17421','AB+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201202029','Fardin','Rasel','Farzana','Male','Muslim','25449','B+','Khulna','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201202027','Sumon','Rana','Shakila','Male','Hindu','28704','A-','Mymensingh','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201202026','Farzana','Hasan','Fahmida','Female','Muslim','25549','AB+','Comilla','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201204022','Anik','Arif','Deepti','Male','Muslim','12320','O+','Sylhet','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201204010','Flora','Mamun','Fiona','Female','Muslim','27451','A+','Jessore','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201204029','Sabbir','Ashik','Sanjana','Male','Muslim','19634','A+','Rajshahi','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201205030','Oporajita','Debendra','Semonti','Female','Hindu','16953','B+','Bogra','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201205024','Ahnaf','Maruf','Afifa','Male','Muslim','14840','O-','Rangpur','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201205015','Maaryam','Imran','Maria','Female','Muslim','95026','AB+','Dinajpur','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201206023','Rafi','Masud','Radia','Male','Muslim','23990','O+','Gazipur','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201206016','Sadia ','Refat','Amina','Female','Muslim','27352','B-','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201206017','Naznin','Parvez','Nazia','Female','Muslim','15459','B+','Barisal','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201210018','Nisha','Shamim','Selina','Female','Muslim','86424','AB-','Kushtia','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201210023','Joy','Seaam','Sejuti','Male','Muslim','18768','A+','Noakhali','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201210024','Rihaa','Jony','Rizia','Female','Muslim','27625','A-','Sylhet','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201212028','Swapnil','Ausit','Seema','Male','Hindu','49378','B+','Dhaka','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201212019','Tanha','Mahmud','Taslima','Female','Muslim','44057','O+','Rajshahi','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201216019','Sumaya Khan','Bappi','Sabina','Female','Muslim','24651','A+','Chittagong','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201216027','Atif','Rashed','Amena','Male','Muslim','18935','A-','Rangpur','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201216016','Aurna','Alok','Oindrila','Female','Hindu','05849','A+','Nilphamari','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201215029','Mamun','Antu','Merina','Male','Muslim','29318','B+','Feni','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201215023','Fariha','Robin','Farhana','Female','Muslim','19603','AB+','Naogaon','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201215022','Saiful','Rajib','Saima','Male','Muslim','18197','B+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201208018','Rupkatha	','Rojot','Rodela','Female','Hindu','24281','A-','Chittagong','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201208022','Ashik','Adnan','Asmani','Male','Muslim','23856','AB+','Sirajgonj','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201217019','Farhan','Mohammad','Fayza','Male','Muslim','27893','O+','Pabna','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201217010','Abir','Reza','Arpa','Male','Muslim','13417','A+','Faridpur','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201217014','Bibha','Kabir','Byapti','Female','Muslim','28644','A+','Patuakhali','Alumni');
+INSERT INTO STUDENTS
+VALUES('S201301015','Rifat','Zubayer','Rakiba','Male','Muslim','32385','B+','Brahmanbaria','Running');
+INSERT INTO STUDENTS
+VALUES('S201301017','Amatullah','Amdad','Asha','Female','Muslim','21727','O-','Chadpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201301014','Rubel','Sami','Rajia','Male','Muslim','19879','AB+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201302013','Hriddhi','Hrishi','Reeti','Female','Hindu','12485','O+','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201302027','Kibria','Zahirul','Kaberi','Male','Muslim','31218','B-','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201302028','Saba','Mishkat','Sadia','Female','Muslim','23656','B+','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201304021','Mahir','Dewan','Moli','Male','Muslim','11205','AB-','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201304019','Jagadish','Tirtho','Mrittika','Male','Hindu','64760','A+','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201304022','Nayeem','Rafique','Naima','Male','Muslim','17978','A-','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201305012','Purbita','Mithun','Pritika','Female','Hindu','24411','B+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201305010','Rakib','Zamal','Sultana','Male','Muslim','11766','O+','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201305014','Anuva','Amit','Aurna','Female','Buddhist','30548','A+','Faridpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201306018','Mehedi','Omar','Misha','Male','Muslim','17535','A-','Netrakona','Running');
+INSERT INTO STUDENTS
+VALUES('S201306011','Rodela','Jahid','Naz','Female','Muslim','19187','A+','Sunamgonj','Running');
+INSERT INTO STUDENTS
+VALUES('S201306021','Nazir','Shafayat','Najnin','Male','Muslim','19731','B+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201310018','Shourav','Dev','Shailee','Male','Hindu','77325','AB+','Kishoreganj','Running');
+INSERT INTO STUDENTS
+VALUES('S201310017','Jennifer','Saddam','Jahida','Female','Muslim','22694','B+','Meherpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201310028','Prottasha','Rakib','Promiti','Female','Muslim','21147','A-','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201312013','Asma','Tahsin','Aleya','Female','Muslim','69611','AB+','Jamalpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201312017','Musarrat','Sajid','Mahmuda','Female','Muslim','29596','O+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201312018','Namrata','Shawon','Nisha','Female','Hindu','50169','A+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201316028','Mousumi','Rahman','Mou','Female','Muslim','05058','A+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201316029','Amelia','Ornob','Afsana','Female','Muslim','30215','B+','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201316011','Sakib','Biplob','Shahida','Male','Muslim','38387','O-','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201315020','Tripty','Tridev','Trisha','Female','Hindu','56509','AB+','Comilla','Running');
+INSERT INTO STUDENTS
+VALUES('S201315021','Mahfuz','Mizan','Mahbuba','Male','Muslim','19455','O+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201315024','Alavee','Ajom Mahmud','Alia','Female','Muslim','20588','B-','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201308020','Ziauddin','Mehedi','Jeba','Male','Muslim','12922','B+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201308027','Muntaha','Rohan','Masruha','Female','Muslim','24270','AB-','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201308017','Tanmoy','Topesh','Tondra','Male','Hindu','06693','A+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201317020','Nazia','Rifat','Mita','Female','Muslim','10115','A-','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201317030','Tonmoy','Iqbal','Nazmun','Male','Muslim','21472','B+','Gazipur','Running');
+INSERT INTO STUDENTS
+VALUES('S201317022','Mithee','Samir','Trina','Female','Hindu','22288','O+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201401024','Mashaekh','Jewel','Mousumi','Male','Muslim','69899','A+','Barisal','Running');
+INSERT INTO STUDENTS
+VALUES('S201401019','Safina','Arafat','Sakiba','Female','Muslim','27640','A-','Kushtia','Running');
+INSERT INTO STUDENTS
+VALUES('S201401020','Siyam','Shimul','Selina','Male','Muslim','92777','A+','Noakhali','Running');
+INSERT INTO STUDENTS
+VALUES('S201402030','Afroz','Murad','Roja','Female','Muslim','20062','B+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201402022','Rafique','Shahin','Radita','Male','Muslim','18658','AB+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201402010','Fahim','Ismail','Farjana','Male','Muslim','28524','B+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201404022','Nilima','Mohon','Neeti','Female','Hindu','64766','A-','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201404030','Mehrab','Arman','Mehzabin','Male','Muslim','82655','AB+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201404025','Sharmin','Joy','Shamima','Female','Muslim','10117','O+','Nilphamari','Running');
+INSERT INTO STUDENTS
+VALUES('S201405012','Ali Hassan','Apon','Azima','Male','Muslim','57652','A+','Feni','Running');
+INSERT INTO STUDENTS
+VALUES('S201405028','Munazza','Golam','Marjan','Female','Muslim','07652','A+','Naogaon','Running');
+INSERT INTO STUDENTS
+VALUES('S201405014','Khan Sobur','Shahid','Safina','Male','Muslim','21171','B+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201406013','Moon','Zahid','Marufa','Female','Muslim','17549','O-','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201406027','Avishek','Shubrata','Arpita','Male','Hindu','23293','AB+','Sirajgonj','Running');
+INSERT INTO STUDENTS
+VALUES('S201406020','Arif','Tanvir','Asma','Male','Muslim','28611','O+','Pabna','Running');
+INSERT INTO STUDENTS
+VALUES('S201410015','Istiak','Shujan','Ismat@','Male','Muslim','10143','B-','Faridpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201410018','Poli','Ridoy','Payra','Female','Muslim','01633','B+','Patuakhali','Running');
+INSERT INTO STUDENTS
+VALUES('S201410026','Sayed','Rabbi','Syeda','Male','Muslim','77992','AB-','Brahmanbaria','Running');
+INSERT INTO STUDENTS
+VALUES('S201412028','Ishika','Abir','Imrose','Female','Muslim','15257','A+','Chadpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201412025','Mazhar','Nayef','Masiha','Male','Muslim','49755','A-','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201412024','Syeda','Sabbir','Shabin','Female','Muslim','18637','B+','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201416014','M.H. Hossain Rana','Ovi','Rejina','Male','Muslim','20500','O+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201416024','Chandni','Chandra','Chondrima','Female','Hindu','16621','A+','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201416023','Nawrin','Ashraf','Nazia','Female','Muslim','20547','A-','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201415021','Atik','Forhad','Afifa','Male','Muslim','19774','A+','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201415013','Labiba','Atiqul','Fariha','Female','Muslim','22319','B+','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201415028','Ayat','Azizul','Amatullah','Male','Muslim','12340','AB+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201408029','Eva','Shorif','Ishika','Female','Muslim','29276','B+','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201408016','Sadia','Ratul','Samia','Female','Muslim','29732','A-','Faridpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201408013','Moriom','Nerob','Marjan','Female','Muslim','54099','AB+','Netrakona','Running');
+INSERT INTO STUDENTS
+VALUES('S201417028','Yeamin','Rudro','Yesmin','Male','Muslim','21974','O+','Sunamgonj','Running');
+INSERT INTO STUDENTS
+VALUES('S201417022','Sadiya','Nobel','Samiha','Female','Muslim','19123','A+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201417027','Arafat Hossain','Faysal','Zannatul','Male','Muslim','24948','A+','Kishoreganj','Running');
+INSERT INTO STUDENTS
+VALUES('S201501015','Tahmid','Rafid','Tasmina','Male','Muslim','18424','B+','Meherpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201501010','Nibedita','Niketon','Nishi','Female','Hindu','84358','O-','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201501012','Afia','Nuruzzaman','Anita','Female','Muslim','24067','AB+','Jamalpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201502027','Ashit','Shekhar','Arpita','Male','Hindu','12403','O+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201502012','Tareq','Polash','Tasmima','Male','Muslim','26192','B-','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201502014','Saliha','Julfikar','Sanzeeda','Female','Muslim','47667','B+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201504022','Sayeda Tasnuva','Rabiul','Sabina','Female','Muslim','88758','AB-','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201504122','Farhan','Toslim','Fayza','Male','Muslim','06055','A+','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201504012','Dina','Alim','Dipa','Female','Muslim','32783','A-','Comilla','Running');
+INSERT INTO STUDENTS
+VALUES('S201505022','Zisan','Fahim','Jenny','Male','Muslim','23557','B+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201505025','Farzana','Izaz','Fabiha','Female','Muslim','30063','O+','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201505016','Palki','Polok','Purbita','Female','Hindu','16447','A+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201506014','Rabbani','Kamrul','Raisa','Male','Muslim','27977','A-','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201506028','Debesh','Debendra','Debi','Male','Hindu','11178','A+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201506015','Orpa','Porosh','Onjona','Female','Hindu','29395','B+','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201510019','Syed Yousuf','Yamin','Yasmin','Male','Muslim','98869','AB+','Gazipur','Running');
+INSERT INTO STUDENTS
+VALUES('S201510021','Netro','Noyon','Nisha','Male','Hindu','45022','B+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201510018','Sadia Iqbal','Sajid','Sajida','Female','Muslim','20683','A-','Barisal','Running');
+INSERT INTO STUDENTS
+VALUES('S201512019','Abdur Rahman','Ahmed','Afia','Male','Muslim','87292','AB+','Kushtia','Running');
+INSERT INTO STUDENTS
+VALUES('S201512023','Fahmida','Fahim','Fabliha','Female','Muslim','90779','O+','Noakhali','Running');
+INSERT INTO STUDENTS
+VALUES('S201512030','Sohel','Saifur','Sunny','Male','Muslim','28423','A+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201516029','Rafsan','Rakibul','Ramia','Male','Muslim','30816','A+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201516018','Sinjon','Soumitra','Sarita','Female','Hindu','28689','B+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201516026','Sanjana','Sadid','Sadika','Female','Muslim','99841','O-','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201515025','Moula','Mozahid','Marjan','Male','Muslim','20001','AB+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201515020','Bushra','Baree','Beni','Female','Muslim','11110','O+','Nilphamari','Running');
+INSERT INTO STUDENTS
+VALUES('S201515011','Rohan','Rownak','Romana','Male','Muslim','31232','B-','Feni','Running');
+INSERT INTO STUDENTS
+VALUES('S201518017','Zahirul','Zikrul','Sanjida','Male','Muslim','30916','B+','Naogaon','Running');
+INSERT INTO STUDENTS
+VALUES('S201518016','Sadi','Samad','Sabina','Male','Muslim','14990','AB-','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201518024','Bashar','Baki','Babli','Male','Muslim','06979','A+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201508020','Shakib','Shadman','Sadia','Male','Muslim','16353','A-','Sirajgonj','Running');
+INSERT INTO STUDENTS
+VALUES('S201508028','Sumon','Provakar','Soumita','Male','Hindu','24448','B+','Pabna','Running');
+INSERT INTO STUDENTS
+VALUES('S201508011','Ferdous','Fahim','Ferdousi','Male','Muslim','63333','O+','Faridpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201517012','Ovi','Dibakar','Onuva','Male','Hindu','35555','A+','Patuakhali','Running');
+INSERT INTO STUDENTS
+VALUES('S201517022','Mahbubul Alam','Mahmud','Rownok','Male','Muslim','22074','A-','Brahmanbaria','Running');
+INSERT INTO STUDENTS
+VALUES('S201517019','Rayhan','Rashed','Zannat','Male','Muslim','91779','A+','Chadpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201601024','Sobhan','Selim','Selima','Male','Muslim','16885','B+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201601015','Rifat Hasan','Rafid','Radia','Male','Muslim','96192','AB+','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201601026','Abdul','Amin','Amena','Male','Muslim','23683','B+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201602024','Deepanwita','Debashish','Deepti','Female','Hindu','18703','A-','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201602018','Sejuti','Soumit','Shima','Female','Hindu','14405','AB+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201602013','Prem','Paritosh','Protiti','Male','Hindu','12167','O+','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201604027','Shams','Shad','Shadia','Male','Muslim','07281','A+','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201604029','Shah','Shams','Shahnur','Male','Muslim','20796','A+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201604087','Ahnaf','Ayman','Atika','Male','Muslim','28497','B+','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201605020','Ibrahim','Iman','Irtija','Male','Muslim','07721','O-','Faridpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201605022','Rabi','Rajat','Raida','Male','Muslim','68211','AB+','Netrakona','Running');
+INSERT INTO STUDENTS
+VALUES('S201605030','Rakibul','Rabiul','Rima','Male','Muslim','31324','O+','Sunamgonj','Running');
+INSERT INTO STUDENTS
+VALUES('S201606028','Fardin Noor','Fuad','Farhana','Male','Muslim','23344','B-','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201606030','Hridoy','Hamim','Halima','Male','Muslim','25072','B+','Kishoreganj','Running');
+INSERT INTO STUDENTS
+VALUES('S201606019','Saif','Sani','Safina','Male','Muslim','12313','AB-','Meherpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201610027','Taufiq','Touhid','Touhida','Male','Muslim','28323','A+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201610011','Raka','Rakin','Rasna','Female','Muslim','28897','A-','Jamalpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201610007','Sohan','Maruf','Sohagi','Male','Muslim','01655','B+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201612019','Torit','Tripto','Tripti','Male','Hindu','20428','O+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201612030','Ovy Hasan','Oli','Sujana','Male','Muslim','15495','A+','Chittagong','Running');
+INSERT INTO STUDENTS
+VALUES('S201612012','Tahsin Ahmed','Tahsan','Tahmida','Female','Muslim','31196','A-','Khulna','Running');
+INSERT INTO STUDENTS
+VALUES('S201616025','Zakia Sultana','Zahir','Tasmia','Female','Muslim','15539','B+','Mymensingh','Running');
+INSERT INTO STUDENTS
+VALUES('S201616011','Tusher','Tonmoy','Taru','Male','Hindu','77261','A-','Comilla','Running');
+INSERT INTO STUDENTS
+VALUES('S201616019','Taher','Tarik','Tasmima','Male','Muslim','29733','AB+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201615021','Shimanto','Soumen','Sheeta','Male','Hindu','14020','O+','Jessore','Running');
+INSERT INTO STUDENTS
+VALUES('S201615001','Nabil','Nakib','Masuma','Male','Muslim','32163','A+','Rajshahi','Running');
+INSERT INTO STUDENTS
+VALUES('S201615011','Abhik','Arindam','Abha','Male','Hindu','89629','A+','Bogra','Running');
+INSERT INTO STUDENTS
+VALUES('S201618018','Mehnaz','Mahmud','Towsif','Female','Muslim','59659','B+','Rangpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201618008','Rideeta','Sobhan','Riddhi','Female','Muslim','20780','O-','Dinajpur','Running');
+INSERT INTO STUDENTS
+VALUES('S201618026','Anika','Alimul','Azima','Female','Muslim','30218','AB+','Gazipur','Running');
+INSERT INTO STUDENTS
+VALUES('S201608028','Dip','Dipto','Deepa','Male','Hindu','47188','O+','Dhaka','Running');
+INSERT INTO STUDENTS
+VALUES('S201608018','Munna','Mazhar','Munni','Male','Muslim','22269','B-','Barisal','Running');
+INSERT INTO STUDENTS
+VALUES('S201608016','Imrul','Izaz','Fahmida','Male','Muslim','73127','B+','Kushtia','Running');
+INSERT INTO STUDENTS
+VALUES('S201617025','Zabir','Zahirul','Amena','Male','Muslim','22281','AB-','Noakhali','Running');
+INSERT INTO STUDENTS
+VALUES('S201617022','Kishore','Kinjol','Kanta','Male','Hindu','29386','A+','Sylhet','Running');
+INSERT INTO STUDENTS
+VALUES('S201617029','Mithila','Amartya','Moutushi','Female','Hindu','88988','A-','Dhaka','Running');

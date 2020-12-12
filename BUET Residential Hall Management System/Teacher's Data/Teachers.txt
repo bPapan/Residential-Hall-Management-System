@@ -1,0 +1,14 @@
+INSERT INTO TEACHERS
+VALUES(1,'Dr. Arif Hossain','Associate Professor');
+INSERT INTO TEACHERS
+VALUES(2,'Iqbal Haider','Assistant Professor');
+INSERT INTO TEACHERS
+VALUES(3,'Dr. Mahmud Bin Salman','Associate Professor');
+INSERT INTO TEACHERS
+VALUES(4,'Saleh Karim','Associate Professor');
+INSERT INTO TEACHERS
+VALUES(5,'Dr. Animesh Sarkar','Professor');
+INSERT INTO TEACHERS
+VALUES(6,'Azizul Bashar','Assistant Professor');
+INSERT INTO TEACHERS
+VALUES(7,'Dr. Shahana Kabir','Professor');

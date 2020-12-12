@@ -1,0 +1,8 @@
+INSERT INTO EVENTS
+VALUES (1,'Hall Fest');
+INSERT INTO EVENTS
+VALUES (2,'Batch Naming Fest');
+INSERT INTO EVENTS
+VALUES (3,'Freshers Reception');
+INSERT INTO EVENTS
+VALUES (4,'Iftar Party');

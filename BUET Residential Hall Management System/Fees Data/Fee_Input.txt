@@ -1,0 +1,24 @@
+INSERT INTO FEES
+VALUES(1,'Dining(monthly)',1200,'Resident');
+INSERT INTO FEES
+VALUES(2,'Tuition',25,'All');
+INSERT INTO FEES
+VALUES(3,'Room',3000,'Resident');
+INSERT INTO FEES
+VALUES(4,'Admission',6000,'All');
+INSERT INTO FEES
+VALUES(5,'Registration',200,'All');
+INSERT INTO FEES
+VALUES(6,'Medical',30,'All');
+INSERT INTO FEES
+VALUES(7,'Sports',40,'All');
+INSERT INTO FEES
+VALUES(8,'Grade Sheet',250,'All');
+INSERT INTO FEES
+VALUES(9,'Caution',1000,'All');
+INSERT INTO FEES
+VALUES(10,'Scout',2,'All');
+INSERT INTO FEES
+VALUES(11,'Electricity',600,'Resident');
+INSERT INTO FEES
+VALUES(12,'Festival',100,'Resident');

@@ -1,0 +1,7 @@
+1,'Dr. Arif Hossain','Associate Professor'
+2,'Iqbal Haider','Assistant Professor'
+3,'Dr. Mahmud Bin Salman','Associate Professor'
+4,'Saleh Karim','Associate Professor'
+5,'Dr. Animesh Sarkar','Professor'
+6,'Azizul Bashar','Assistant Professor'
+7,'Dr. Shahana Kabir','Professor'

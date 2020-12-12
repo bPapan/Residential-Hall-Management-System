@@ -1,0 +1,14 @@
+INSERT INTO HALL
+VALUES (1,'Sher-E-Bangla','Male',480);
+INSERT INTO HALL
+VALUES (2,'Titumir','Male',480);
+INSERT INTO HALL
+VALUES (3,'Suhrawardy','Male',480);
+INSERT INTO HALL
+VALUES (4,'M.A. Rashid','Male',500);
+INSERT INTO HALL
+VALUES (5,'Ahsanullah','Male',600);
+INSERT INTO HALL
+VALUES (6,'Kazi Nazrul Islam','Male',350);
+INSERT INTO HALL
+VALUES (7,'Chhattri','Female',550);

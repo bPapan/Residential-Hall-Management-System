@@ -1,0 +1,12 @@
+INSERT INTO SPONSORS
+VALUES (1,'Pran','Abdul Kader','263489');
+INSERT INTO SPONSORS
+VALUES (2,'RFL Plastic','Kabir Islam','325182');
+INSERT INTO SPONSORS
+VALUES (3,'All Time','Hasan Aziz','172533');
+INSERT INTO SPONSORS
+VALUES (4,'Udvash-Unmesh','Kamrul Hasan','564423');
+INSERT INTO SPONSORS
+VALUES (5,'Robi','Shahed Haider','211188');
+INSERT INTO SPONSORS
+VALUES (6,'Grameenphone','Ehsanul Karim','455422');

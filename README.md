@@ -26,3 +26,5 @@ A student can -
 3.  Observe the pending and paid fees.
 
 Moreover, in this software, each view or page has efficient search facility based on different parameters. 
+
+Before running this software, create tables using Oracle SQL developer or Navicat according to the commands in _Blaze.sql_ file.

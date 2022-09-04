@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="942.0" prefWidth="738.0" styleClass="custom-pane" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.student.viewFeeInfo.Update_paymentController">
+   <padding>
+      <Insets top="40.0" />
+   </padding>
+   <children>
+      <JFXDatePicker fx:id="p_pdate" editable="false" layoutX="39.0" layoutY="474.0" promptText="Payment Date" styleClass="text-field2" />
+      <JFXButton layoutX="447.0" layoutY="469.0" onAction="#calculate_fine_from_date" prefHeight="62.0" prefWidth="220.0" text="Calculate Fine" />
+      <JFXButton layoutX="275.0" layoutY="761.0" onAction="#cancel" prefHeight="62.0" prefWidth="163.0" text="Okay" />
+      <JFXTextField fx:id="p_sid" labelFloat="true" layoutX="39.0" layoutY="50.0" prefHeight="54.0" prefWidth="660.0" promptText="Student ID" styleClass="text-field2" />
+      <JFXTextField fx:id="p_month" labelFloat="true" layoutX="39.0" layoutY="151.0" prefHeight="54.0" prefWidth="660.0" promptText="Month" styleClass="text-field2" />
+      <JFXTextField fx:id="p_year" labelFloat="true" layoutX="39.0" layoutY="259.0" prefHeight="54.0" prefWidth="660.0" promptText="Year" styleClass="text-field2" />
+      <JFXTextField fx:id="p_feeamount" labelFloat="true" layoutX="39.0" layoutY="358.0" prefHeight="54.0" prefWidth="660.0" promptText="Fee Amount" styleClass="text-field2" />
+      <JFXTextField fx:id="p_fine" labelFloat="true" layoutX="39.0" layoutY="587.0" prefHeight="54.0" prefWidth="660.0" promptText="Fine" styleClass="text-field2" />
+   </children>
+</AnchorPane>

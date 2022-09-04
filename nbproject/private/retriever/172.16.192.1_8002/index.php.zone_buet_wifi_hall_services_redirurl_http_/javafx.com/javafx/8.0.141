@@ -1,0 +1,77 @@
+<html> 
+<head> 
+<title>Login Page of BUET Hall WiFi Service</title> 
+<style type="text/css"> 
+.style1 {
+        font-size: large;
+	font-family: "sans-serif";
+	<!-- color: #0B0061; -->
+}
+.style2 {
+	font-size: medium;
+}
+.style5 {
+	font-family: "sans-serif";
+	font-size: small;
+	color: #4b4c4c;
+}
+
+.style6 {
+        font-family: "sans-serif";
+        font-size: 11px;
+        color: #4b4c4c;
+}
+
+
+body{
+
+    background-image: url("captiveportal-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+
+@media only screen and (max-device-width: 667px) {
+    body {
+     background-image: none;
+  }
+</style> 
+</head> 
+<body oncontextmenu="return false;">
+<center> 
+<h2 class="style1"> 
+<p class="style1">&nbsp;</p> 
+<br><br><br><br><br>Welcome to BUET Hall WiFi Service
+<span class="style2">
+</span> 
+<p class="style2">Please enter your username and password to continue&nbsp;</p> 
+
+<form method="post" action="http://172.16.192.1:8002/index.php?zone=buet_wifi_hall_services">
+<table> 
+   <tr><td class="style2">Username:</td><td><input name="auth_user" type="text"></td></tr> 
+   <tr><td class="style2">Password:</td><td><input name="auth_pass" type="password"></td></tr> 
+   <tr> 
+     <td colspan="2"> 
+	   <input name="redirurl" type="hidden" value="http://javafx.com/javafx/8.0.141">
+   	   <input name="zone" type="hidden" value="buet_wifi_hall_services">
+	<center><input name="accept" type="submit" value="Continue"></center> 
+     </td> 
+   </tr> 
+</table> 
+</form>
+
+
+
+
+<p class="style5"><br><br><br>BUET Hall WiFi Service Helpdesk <br>IICT Building  |
+Level-6  | Room No. 601<br>
+Saturday - Thursday  |  09:00AM - 6:00PM<br>
+HOTLINE: +8801795623205&nbsp</p>
+
+
+<p class="style6"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&copy; 2016 - BASE Technologies.</p>
+
+</html>

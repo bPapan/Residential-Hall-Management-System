@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="1163.0" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.admin.teacherHistory.Teacher_historyController">
+   <children>
+      <TableView fx:id="teacher_history_table" layoutX="199.0" layoutY="338.0" prefHeight="375.0" prefWidth="766.0" stylesheets="@../../../../items/theme.css">
+         <columns>
+            <TableColumn fx:id="th_hall" editable="false" prefWidth="200.0" resizable="false" sortable="false" text="Hall" />
+            <TableColumn fx:id="th_role" editable="false" prefWidth="178.0" resizable="false" sortable="false" text="Role" />
+            <TableColumn fx:id="th_jdate" editable="false" prefWidth="195.0" resizable="false" sortable="false" text="Join Date" />
+            <TableColumn fx:id="th_rdate" editable="false" prefWidth="195.0" resizable="false" sortable="false" text="Retire Date" />
+         </columns>
+      </TableView>
+      <Label layoutX="199.0" layoutY="254.0" prefHeight="71.0" prefWidth="725.0" text="Job History :" textFill="#b5ffb0">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="t_id" labelFloat="true" layoutX="199.0" layoutY="51.0" prefHeight="71.0" prefWidth="766.0" promptText="Teacher ID" styleClass="text-field2" />
+      <JFXTextField fx:id="t_name" labelFloat="true" layoutX="199.0" layoutY="169.0" prefHeight="71.0" prefWidth="766.0" promptText="Name" styleClass="text-field2" />
+   </children>
+</AnchorPane>

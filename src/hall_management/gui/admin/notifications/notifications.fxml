@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="765.0" prefWidth="948.0" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.admin.notifications.NotificationsController">
+   <children>
+      <TableView fx:id="notice_hall" layoutX="96.0" layoutY="167.0" prefHeight="409.0" prefWidth="757.0" stylesheets="@../../../../items/theme.css">
+         <columns>
+            <TableColumn fx:id="sidCol" editable="false" prefWidth="165.0" resizable="false" sortable="false" text="ID" />
+            <TableColumn fx:id="ntypeCol" editable="false" prefWidth="224.0" resizable="false" sortable="false" text="Notice Type" />
+            <TableColumn fx:id="nHallCol" editable="false" prefWidth="151.0" resizable="false" sortable="false" text="Applied Hall" />
+            <TableColumn fx:id="nDateCol" editable="false" prefWidth="216.0" resizable="false" sortable="false" text="Date of Application" />
+         </columns>
+      </TableView>
+      <Button layoutX="363.0" layoutY="639.0" mnemonicParsing="false" onAction="#handleChecked" prefHeight="72.0" prefWidth="246.0" text="Mark Checked" />
+      <Label fx:id="nRecordNo" layoutX="620.0" layoutY="71.0" prefHeight="47.0" prefWidth="233.0" text="No.of Records :" textFill="#c5cd2b">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

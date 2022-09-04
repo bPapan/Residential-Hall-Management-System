@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="1938.0" stylesheets="@../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.hallAdmin.HallAdmin_viewController">
+   <children>
+      <AnchorPane fx:id="rootAnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../items/theme.css">
+         <children>
+            <BorderPane fx:id="rootBorderPane" layoutX="191.0" layoutY="100.0" prefHeight="665.0" prefWidth="455.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <MenuBar fx:id="menuBar" stylesheets="@../../../items/theme.css" BorderPane.alignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="View">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleNotifications" text="Notificatons" />
+                           </items></Menu>
+                      <Menu mnemonicParsing="false" text="Help" />
+                        <Menu mnemonicParsing="false" text="Account">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" />
+                              <MenuItem fx:id="changePassword" mnemonicParsing="false" onAction="#handleChangePassword" text="Change Password" />
+                           </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+               </top>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXTabPane fx:id="mainTabPane" layoutX="16.0" layoutY="24.0" prefHeight="758.0" prefWidth="1098.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <tabs>
+                              <Tab fx:id="View_Students" text="View Students">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="student_Table" layoutX="700.0" layoutY="112.0" prefHeight="452.0" prefWidth="930.0" AnchorPane.bottomAnchor="196.0" AnchorPane.rightAnchor="219.0" AnchorPane.topAnchor="112.0">
+                                            <columns>
+                                              <TableColumn fx:id="sIdCol" editable="false" prefWidth="125.0" resizable="false" sortable="false" text="Student ID" />
+                                              <TableColumn fx:id="sNameCol" prefWidth="142.0" resizable="false" text="Name" />
+                                                <TableColumn fx:id="sTypeCol" editable="false" prefWidth="100.0" resizable="false" sortable="false" text="Type" />
+                                                <TableColumn fx:id="stuWingCol" editable="false" minWidth="0.0" prefWidth="74.0" resizable="false" sortable="false" text="Wing" />
+                                                <TableColumn fx:id="sRoomCol" editable="false" prefWidth="111.0" resizable="false" sortable="false" text="Room No" />
+                                                <TableColumn fx:id="sStatusCol" editable="false" prefWidth="125.0" resizable="false" sortable="false" text="Status" />
+                                                <TableColumn fx:id="mobNoCol" editable="false" prefWidth="252.0" resizable="false" sortable="false" text="Mobile No." />
+                                            </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="searchComboBox" labelFloat="true" layoutX="118.0" layoutY="121.0" prefHeight="62.0" prefWidth="356.0" promptText="Search By" styleClass="text-field2" />
+                                          <JFXTextField fx:id="searchField" labelFloat="true" layoutX="118.0" layoutY="275.0" prefHeight="63.0" prefWidth="351.0" promptText="Enter Search String" styleClass="text-field2" />
+                                          <JFXButton fx:id="studentSearchButton" buttonType="RAISED" layoutX="206.0" layoutY="435.0" onAction="#handleStudentSearchButton" prefHeight="64.0" prefWidth="165.0" styleClass="about-button" text="Search" />
+                                          <JFXButton fx:id="studentAssignRoom" buttonType="RAISED" layoutX="1068.0" layoutY="619.0" onAction="#loadAssignRoom" prefHeight="106.0" prefWidth="194.0" styleClass="about-button" text="Assign/Change Room" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="587.0" />
+                                          <JFXButton fx:id="viewStudentHistory" buttonType="RAISED" layoutX="728.0" layoutY="639.0" onAction="#loadStudentHistory" prefHeight="66.0" prefWidth="182.0" styleClass="about-button" text="View History" AnchorPane.bottomAnchor="55.0" AnchorPane.rightAnchor="939.0" />
+                                          <Label fx:id="attStudentLabel" layoutX="1246.0" prefHeight="48.0" prefWidth="255.0" styleClass="text-field2" text="Attached Students:" AnchorPane.rightAnchor="348.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="resStudentLabel" layoutX="1248.0" layoutY="48.0" prefHeight="48.0" prefWidth="252.0" styleClass="text-field2" text="Resident Students:" AnchorPane.rightAnchor="349.0" AnchorPane.topAnchor="48.0">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <JFXButton fx:id="studentRefreshButton" buttonType="RAISED" layoutX="1413.0" layoutY="640.0" onAction="#studentRefresh" prefHeight="65.0" prefWidth="174.0" styleClass="about-button" text="Refresh" AnchorPane.bottomAnchor="55.0" AnchorPane.rightAnchor="262.0" />
+                                       </children></AnchorPane>
+                                </content>
+                              </Tab>
+                              <Tab fx:id="View_Staff" text="View Staff">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1116.0" stylesheets="@../../../items/theme.css">
+                                       <children>
+                                          <TableView fx:id="Staff_Table" layoutX="828.0" layoutY="182.0" prefHeight="376.0" prefWidth="784.0" stylesheets="@../../../items/theme.css">
+                                            <columns>
+                                              <TableColumn fx:id="stIdCol" editable="false" prefWidth="67.0" resizable="false" sortable="false" text="ID" />
+                                              <TableColumn fx:id="stNameCol" editable="false" prefWidth="144.0" resizable="false" sortable="false" text="Staff Name" />
+                                                <TableColumn fx:id="stAge" editable="false" prefWidth="65.0" resizable="false" sortable="false" text="Age" />
+                                                <TableColumn fx:id="stWingCol" editable="false" prefWidth="93.0" resizable="false" sortable="false" text="Wing" />
+                                                <TableColumn fx:id="stJobCol" editable="false" prefWidth="104.0" resizable="false" sortable="false" text="Job" />
+                                                <TableColumn fx:id="stHireDateCol" editable="false" prefWidth="114.0" resizable="false" sortable="false" text="Start Date" />
+                                                <TableColumn fx:id="stEndDateCol" editable="false" prefWidth="108.0" resizable="false" sortable="false" text="End Date" />
+                                                <TableColumn fx:id="stSalaryCol" minWidth="2.0" prefWidth="88.0" text="Salary" />
+                                            </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="stSearchCombo" labelFloat="true" layoutX="109.0" layoutY="201.0" prefHeight="69.0" prefWidth="429.0" promptText="Search By" styleClass="text-field2" />
+                                          <Label fx:id="stRecordNo" layoutX="1365.0" layoutY="76.0" prefHeight="49.0" prefWidth="172.0" styleClass="text-field2" text="No. of Records:">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <JFXTextField fx:id="stSearchString" labelFloat="true" layoutX="114.0" layoutY="353.0" prefHeight="68.0" prefWidth="419.0" promptText="Enter Search String" styleClass="text-field2" />
+                                          <JFXButton fx:id="stSearchButton" buttonType="RAISED" layoutX="226.0" layoutY="496.0" onAction="#handleStaffSearchButton" prefHeight="70.0" prefWidth="181.0" styleClass="about-button" text="Search" />
+                                          <JFXButton fx:id="StaffRefreshButton" buttonType="RAISED" layoutX="1395.0" layoutY="616.0" onAction="#handleStaffRefreshButton" prefHeight="71.0" prefWidth="169.0" styleClass="about-button" text="Refresh" />
+                                          <JFXButton fx:id="staffUpdateButton" buttonType="RAISED" layoutX="900.0" layoutY="616.0" onAction="#handleStaffUpdateButton" prefHeight="71.0" prefWidth="150.0" styleClass="about-button" text="Update" />
+                                       </children></AnchorPane>
+                                </content>
+                              </Tab>
+                              <Tab text="View Rooms">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="Rooms_Table" layoutX="932.0" layoutY="184.0" prefHeight="430.0" prefWidth="681.0" AnchorPane.bottomAnchor="146.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="184.0">
+                                            <columns>
+                                              <TableColumn fx:id="roomNoCol" editable="false" prefWidth="136.0" resizable="false" sortable="false" text="Room No" />
+                                              <TableColumn fx:id="roomWingCol" editable="false" prefWidth="134.0" resizable="false" sortable="false" text="Wing" />
+                                                <TableColumn fx:id="roomCapacityCol" editable="false" prefWidth="123.0" resizable="false" sortable="false" text="Capacity" />
+                                                <TableColumn fx:id="roomOccupiedCol" editable="false" prefWidth="119.0" resizable="false" sortable="false" text="Occupied" />
+                                                <TableColumn fx:id="roomAvailabiltyCol" editable="false" prefWidth="168.0" resizable="false" sortable="false" text="Availability" />
+                                            </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="roomSearchBox" labelFloat="true" layoutX="186.0" layoutY="190.0" prefHeight="69.0" prefWidth="410.0" promptText="Search By" styleClass="text-field2" />
+                                          <JFXTextField fx:id="roomSearchString" labelFloat="true" layoutX="180.0" layoutY="348.0" prefHeight="65.0" prefWidth="421.0" promptText="Enter Search String" styleClass="text-field2" />
+                                          <JFXButton fx:id="roomSearchButton" buttonType="RAISED" layoutX="293.0" layoutY="501.0" onAction="#handleRoomSearchButton" prefHeight="63.0" prefWidth="180.0" styleClass="about-button" text="Search" />
+                                          <JFXButton fx:id="refreshButton" buttonType="RAISED" layoutX="1191.0" layoutY="658.0" onAction="#roomRefresh" prefHeight="67.0" prefWidth="180.0" styleClass="about-button" text="Refresh" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="478.0" />
+                                          <Label fx:id="avlRoomLbl" layoutX="1359.0" layoutY="98.0" prefHeight="57.0" prefWidth="242.0" styleClass="text-field2" text="Available Rooms :" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="98.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="roomCntLbl" layoutX="1359.0" layoutY="46.0" prefHeight="57.0" prefWidth="242.0" styleClass="text-field2" text="Total Rooms :" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="46.0">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </Tab>
+                              <Tab text="View Sponsors">
+                                 <content>
+                                    <AnchorPane fx:id="sponAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="sponsTable" layoutX="945.0" layoutY="106.0" prefHeight="424.0" prefWidth="709.0" AnchorPane.bottomAnchor="230.0" AnchorPane.rightAnchor="195.0" AnchorPane.topAnchor="106.0">
+                                             <columns>
+                                                <TableColumn fx:id="sponIdCol" editable="false" prefWidth="73.0" resizable="false" sortable="false" text="ID" />
+                                                <TableColumn fx:id="spNameCol" editable="false" prefWidth="205.0" resizable="false" sortable="false" text="Name" />
+                                                <TableColumn fx:id="manNameCol" editable="false" prefWidth="226.0" resizable="false" sortable="false" text="Manager Name" />
+                                                <TableColumn fx:id="manContactCol" editable="false" prefWidth="204.0" resizable="false" sortable="false" text="Manager Mobile No." />
+                                             </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="sponComboBox" labelFloat="true" layoutX="181.0" layoutY="133.0" prefHeight="69.0" prefWidth="429.0" promptText="Search By" styleClass="text-field2" />
+                                          <JFXTextField fx:id="sponSrchString" labelFloat="true" layoutX="181.0" layoutY="271.0" prefHeight="71.0" prefWidth="434.0" promptText="Enter Search String" styleClass="text-field2" />
+                                          <JFXButton fx:id="sponSrchBtn" buttonType="RAISED" layoutX="306.0" layoutY="428.0" onAction="#handleSposnorSearch" prefHeight="68.0" prefWidth="154.0" styleClass="about-button" text="Search" />
+                                          <JFXButton fx:id="sponUpdtBtn" buttonType="RAISED" layoutX="945.0" layoutY="589.0" onAction="#handleSponUpdate" prefHeight="61.0" prefWidth="151.0" styleClass="about-button" text="Update" AnchorPane.bottomAnchor="110.0" AnchorPane.rightAnchor="753.0" />
+                                          <JFXButton fx:id="addSponBtn" buttonType="RAISED" layoutX="1235.0" layoutY="587.0" onAction="#handleAddSponsorship" prefHeight="64.0" prefWidth="158.0" styleClass="about-button" text="Add" AnchorPane.bottomAnchor="110.0" AnchorPane.rightAnchor="456.0" />
+                                          <JFXButton fx:id="sponRefreshBtn" buttonType="RAISED" layoutX="1510.0" layoutY="587.0" onAction="#handleSponRefresh" prefHeight="61.0" prefWidth="154.0" styleClass="about-button" text="Refresh" AnchorPane.bottomAnchor="110.0" AnchorPane.rightAnchor="185.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                              <Tab text="View Events">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="eventsTab" layoutX="1003.0" layoutY="103.0" prefHeight="449.0" prefWidth="649.0" AnchorPane.bottomAnchor="208.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="103.0">
+                                             <columns>
+                                                <TableColumn fx:id="eventIdCol" editable="false" prefWidth="72.0" resizable="false" sortable="false" text="ID" />
+                                                <TableColumn fx:id="eveNameCol" editable="false" prefWidth="213.0" resizable="false" sortable="false" text="Event Name" />
+                                                <TableColumn fx:id="eStDateCol" editable="false" prefWidth="183.0" resizable="false" sortable="false" text="Start Date" />
+                                                <TableColumn fx:id="eEnDateCol" editable="false" prefWidth="180.0" resizable="false" sortable="false" text="End Date" />
+                                             </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="evnSearchBox" labelFloat="true" layoutX="190.0" layoutY="135.0" prefHeight="69.0" prefWidth="434.0" promptText="Search By" />
+                                          <JFXTextField fx:id="evnSearchTxt" labelFloat="true" layoutX="187.0" layoutY="279.0" prefHeight="71.0" prefWidth="439.0" promptText="Enter Search String" styleClass="text-field2" />
+                                          <JFXButton fx:id="evnSrchBtn" buttonType="RAISED" layoutX="312.0" layoutY="445.0" onAction="#handleEvnSearch" prefHeight="73.0" prefWidth="189.0" styleClass="about-button" text="Search" />
+                                          <JFXButton fx:id="evntRefreshBtn" buttonType="RAISED" layoutX="1237.0" layoutY="613.0" onAction="#handleEvntRefresh" prefHeight="65.0" prefWidth="182.0" styleClass="about-button" text="Refresh" AnchorPane.bottomAnchor="82.0" AnchorPane.rightAnchor="430.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                              <Tab text="View Sponsorship">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="spShpTable" layoutX="866.0" layoutY="112.0" prefHeight="405.0" prefWidth="757.0" AnchorPane.bottomAnchor="243.0" AnchorPane.rightAnchor="226.0" AnchorPane.topAnchor="112.0">
+                                             <columns>
+                                                <TableColumn fx:id="evtNmCol" editable="false" prefWidth="167.0" resizable="false" sortable="false" text="Event Name" />
+                                                <TableColumn fx:id="yearCol" editable="false" prefWidth="117.0" resizable="false" sortable="false" text="Year" />
+                                                <TableColumn fx:id="SponsNmCol" editable="false" prefWidth="164.0" resizable="false" sortable="false" text="Sponsor Name" />
+                                                <TableColumn fx:id="ContrTypeCol" editable="false" prefWidth="157.0" resizable="false" sortable="false" text="Contribution" />
+                                                <TableColumn fx:id="AmntCol" editable="false" prefWidth="151.0" resizable="false" sortable="false" text="Amount" />
+                                             </columns>
+                                          </TableView>
+                                          <JFXButton fx:id="SpShipRfrshBtn" buttonType="RAISED" layoutX="1171.0" layoutY="619.0" onAction="#handleSpShipRfrsh" prefHeight="61.0" prefWidth="155.0" styleClass="about-button" text="Refresh" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="523.0" />
+                                          <JFXButton fx:id="spShipSrchBtn" buttonType="RAISED" layoutX="261.0" layoutY="454.0" onAction="#handleSpnsrshipSearch" prefHeight="63.0" prefWidth="150.0" styleClass="about-button" text="Search" />
+                                          <JFXComboBox fx:id="spShpSrchBox" labelFloat="true" layoutX="148.0" layoutY="129.0" prefHeight="64.0" prefWidth="397.0" promptText="Search By" />
+                                          <JFXTextField fx:id="spShipSrcStr" labelFloat="true" layoutX="148.0" layoutY="284.0" prefHeight="68.0" prefWidth="403.0" promptText="Enter Search String" styleClass="text-field2" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>                              
+                           </tabs>
+                        </JFXTabPane>
+                     </children></AnchorPane>
+               </center>
+               <right>
+                  <JFXDrawer fx:id="Drawer" defaultDrawerSize="200.0" direction="RIGHT" styleClass="jfx-drawer" BorderPane.alignment="CENTER" />
+               </right>
+               <left>
+                  <AnchorPane prefHeight="452.0" prefWidth="73.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXHamburger fx:id="Hamburger" layoutX="26.0" layoutY="30.0" styleClass="jfx-hamburger-icon" />
+                     </children>
+                  </AnchorPane>
+               </left>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

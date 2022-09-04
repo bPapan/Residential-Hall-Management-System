@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="1938.0" stylesheets="@../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.student.Student_viewController">
+   <children>
+      <AnchorPane fx:id="rootAnchorPane" stylesheets="@../../../items/theme.css">
+         <children>
+            <BorderPane fx:id="rootBorderPane" prefHeight="455.0" prefWidth="665.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <MenuBar fx:id="menubar" stylesheets="@../../../items/theme.css" BorderPane.alignment="CENTER">
+                     <menus>
+                        <Menu mnemonicParsing="false" text="View" />
+                        <Menu mnemonicParsing="false" text="Help" />
+                        <Menu mnemonicParsing="false" text="Account">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" />
+                              <MenuItem fx:id="changePassword" mnemonicParsing="false" onAction="#handleChangePassword" text="Change Password" />
+                           </items>
+                        </Menu>
+                     </menus>
+                  </MenuBar>
+               </top>
+               <center>
+                  <AnchorPane>
+                     <children>
+                        <JFXTabPane fx:id="mainTabPane" layoutX="16.0" prefHeight="758.0" prefWidth="1098.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <tabs>
+                              <Tab fx:id="s_infoTab" text="My_Info">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1116.0" stylesheets="@../../../items/theme.css">
+                                       <children>
+                                          <ImageView fx:id="pic" fitHeight="291.0" fitWidth="292.0" layoutX="1166.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="397.0" AnchorPane.topAnchor="158.0">
+                                             <image>
+                                                <Image url="@../../../items/male.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="257.0" layoutY="158.0" prefHeight="65.0" prefWidth="165.0" text="Student ID :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="257.0" layoutY="252.0" prefHeight="65.0" prefWidth="165.0" text="Name :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="257.0" layoutY="348.0" prefHeight="65.0" prefWidth="172.0" text="Current Hall :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="257.0" layoutY="435.0" prefHeight="65.0" prefWidth="167.0" text="Type :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="257.0" layoutY="522.0" prefHeight="65.0" prefWidth="186.0" text="Current Room :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="257.0" layoutY="610.0" prefHeight="65.0" prefWidth="185.0" text="Status :" textFill="#56ff6d">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_id" layoutX="501.0" layoutY="158.0" prefHeight="65.0" prefWidth="469.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_name" layoutX="501.0" layoutY="252.0" prefHeight="65.0" prefWidth="489.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_curr_hall" layoutX="501.0" layoutY="348.0" prefHeight="65.0" prefWidth="510.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_type" layoutX="501.0" layoutY="435.0" prefHeight="65.0" prefWidth="549.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_curr_room" layoutX="501.0" layoutY="522.0" prefHeight="65.0" prefWidth="513.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="s_status" layoutX="501.0" layoutY="610.0" prefHeight="65.0" prefWidth="558.0" textFill="#cbff31">
+                                             <font>
+                                                <Font name="Lucida Fax Regular" size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="1182.0" layoutY="607.0" mnemonicParsing="false" onAction="#handleUpdateInfo" prefHeight="71.0" prefWidth="259.0" text="View Full Info" AnchorPane.rightAnchor="413.0" AnchorPane.topAnchor="607.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                              <Tab fx:id="pInfoTab" text="Payment_Info">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1192.0">
+                                       <children>
+                                          <TableView fx:id="payment_table" layoutX="962.0" layoutY="168.0" prefHeight="375.0" prefWidth="730.0" stylesheets="@../../../items/theme.css" AnchorPane.bottomAnchor="217.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="168.0">
+                                             <columns>
+                                                <TableColumn fx:id="pMonthCol" editable="false" prefWidth="153.0" resizable="false" sortable="false" text="Month" />
+                                                <TableColumn fx:id="pYearCol" editable="false" prefWidth="119.0" resizable="false" sortable="false" text="Year" />
+                                                <TableColumn fx:id="pFeeAmntCol" editable="false" prefWidth="160.0" resizable="false" sortable="false" text="Fee Amount" />
+                                                <TableColumn fx:id="pFineCol" editable="false" prefWidth="121.0" resizable="false" sortable="false" text="Fine" />
+                                                <TableColumn fx:id="pStatusCol" editable="false" prefWidth="176.0" resizable="false" sortable="false" text="Status" />
+                                             </columns>
+                                          </TableView>
+                                          <JFXComboBox fx:id="pSearchCombo" layoutX="164.0" layoutY="205.0" prefHeight="62.0" prefWidth="363.0" promptText="Search By" />
+                                          <JFXTextField fx:id="pSearchString" blendMode="LIGHTEN" labelFloat="true" layoutX="162.0" layoutY="355.0" prefHeight="43.0" prefWidth="367.0" promptText="Enter Search String" unFocusColor="#ae9393" />
+                                          <JFXButton fx:id="payment_search" buttonType="RAISED" layoutX="243.0" layoutY="489.0" onAction="#handlePaymentSearchButton" prefHeight="53.0" prefWidth="153.0" ripplerFill="#c64b4b" text="Search" />
+                                          <Label fx:id="pRecordNo" layoutX="1459.0" layoutY="67.0" prefHeight="47.0" prefWidth="233.0" text="No.of Records :" textFill="#c5cd2b" AnchorPane.rightAnchor="162.0">
+                                             <font>
+                                                <Font name="Comic Sans MS" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <JFXButton fx:id="payment_view" buttonType="RAISED" layoutX="1202.0" layoutY="627.0" onAction="#handlePaymentViewButton" prefHeight="60.0" prefWidth="251.0" ripplerFill="#c64b4b" text="View Full Info" AnchorPane.bottomAnchor="73.0" AnchorPane.rightAnchor="401.0" />
+                                       </children></AnchorPane>
+                                 </content>
+                              </Tab>
+                              <Tab fx:id="rInfoTab" text="Residence_Info">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="1192.0">
+                                       <children>
+                                          <JFXComboBox fx:id="roomSearchBox" layoutX="164.0" layoutY="205.0" prefHeight="62.0" prefWidth="363.0" promptText="Search By" />
+                                          <JFXTextField fx:id="roomSearchString" blendMode="LIGHTEN" labelFloat="true" layoutX="162.0" layoutY="355.0" prefHeight="43.0" prefWidth="367.0" promptText="Enter Search String" unFocusColor="#ae9393" />
+                                          <JFXButton fx:id="roomSearchButton" buttonType="RAISED" layoutX="243.0" layoutY="489.0" onAction="#handleRoomSearchButton" prefHeight="53.0" prefWidth="153.0" ripplerFill="#c64b4b" text="Search" />
+                                          <JFXButton fx:id="hallChangeButton" buttonType="RAISED" layoutX="1553.0" layoutY="618.0" onAction="#hallChangeApply" prefHeight="60.0" prefWidth="270.0" ripplerFill="#c64b4b" text="Apply for hall change" AnchorPane.bottomAnchor="82.0" AnchorPane.rightAnchor="99.0" />
+                                          <JFXButton fx:id="residencyButton" buttonType="RAISED" layoutX="771.0" layoutY="618.0" onAction="#handleCancelResidency" prefHeight="60.0" prefWidth="239.0" ripplerFill="#c64b4b" text="Cancel residency" AnchorPane.bottomAnchor="82.0" AnchorPane.rightAnchor="912.0" />
+                                          <JFXButton fx:id="roomChangeButton" buttonType="RAISED" layoutX="1158.0" layoutY="618.0" onAction="#handleRoomApply" prefHeight="60.0" prefWidth="226.0" ripplerFill="#c64b4b" text="Apply for room" AnchorPane.bottomAnchor="82.0" AnchorPane.rightAnchor="538.0" />
+                                          <TableView fx:id="Rooms_Table" layoutX="904.0" layoutY="127.0" prefHeight="430.0" prefWidth="681.0" AnchorPane.bottomAnchor="203.0" AnchorPane.rightAnchor="337.0" AnchorPane.topAnchor="127.0">
+                                             <columns>
+                                                <TableColumn fx:id="roomNoCol" editable="false" prefWidth="136.0" resizable="false" sortable="false" text="Room No" />
+                                                <TableColumn fx:id="roomWingCol" editable="false" prefWidth="134.0" resizable="false" sortable="false" text="Wing" />
+                                                <TableColumn fx:id="roomCapacityCol" editable="false" prefWidth="123.0" resizable="false" sortable="false" text="Capacity" />
+                                                <TableColumn fx:id="roomOccupiedCol" editable="false" prefWidth="119.0" resizable="false" sortable="false" text="Occupied" />
+                                                <TableColumn fx:id="roomAvailabiltyCol" editable="false" prefWidth="168.0" resizable="false" sortable="false" text="Availability" />
+                                             </columns>
+                                          </TableView>
+                                          <Label fx:id="avlRoomLbl" layoutX="991.0" layoutY="40.0" prefHeight="57.0" prefWidth="242.0" styleClass="text-field2" text="Available Rooms :">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="roomCntLbl" layoutX="1424.0" layoutY="40.0" prefHeight="57.0" prefWidth="242.0" styleClass="text-field2" text="Total Rooms :">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <JFXButton fx:id="refreshButton" buttonType="RAISED" layoutX="1634.0" layoutY="234.0" onAction="#roomRefresh" prefHeight="67.0" prefWidth="180.0" styleClass="about-button" text="Refresh" />
+                                          <JFXButton buttonType="RAISED" layoutX="1634.0" layoutY="422.0" onAction="#roomHistory" prefHeight="67.0" prefWidth="180.0" styleClass="about-button" text="Room history" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                           </tabs>
+                        </JFXTabPane>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets />
+                     </BorderPane.margin>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

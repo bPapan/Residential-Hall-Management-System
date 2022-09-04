@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane fx:id="rootAnchorPane" prefHeight="500.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../../../../items/theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="hall_management.gui.hallAdmin.addTeam.Add_TeamController">
+   <children>
+      <VBox fx:id="rootVBox" layoutX="32.0" layoutY="28.0" prefHeight="202.0" prefWidth="528.0" spacing="30.0">
+         <children>
+            <JFXTextField fx:id="teamID" labelFloat="true" promptText="Team ID" styleClass="text-field2" />
+            <JFXTextField fx:id="teamSport" labelFloat="true" promptText="Sport" styleClass="text-field2" />
+         </children>
+      </VBox>
+      <JFXButton fx:id="saveButton" buttonType="RAISED" layoutX="72.0" layoutY="392.0" onAction="#save" prefHeight="53.0" prefWidth="139.0" styleClass="about-button" text="Save" />
+      <JFXButton fx:id="cancButton" buttonType="RAISED" layoutX="360.0" layoutY="392.0" onAction="#reset" prefHeight="53.0" prefWidth="139.0" styleClass="about-button" text="Cancel" />
+   </children>
+</AnchorPane>

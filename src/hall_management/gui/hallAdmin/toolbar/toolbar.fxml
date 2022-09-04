@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="930.0" prefWidth="197.0" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.hallAdmin.toolbar.ToolbarController">
+   <children>
+      <JFXButton buttonType="RAISED" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAssignRoom" prefHeight="203.0" prefWidth="197.0" ripplerFill="#6d9e4f" styleClass="toolbar-button" text="Assign Room">
+         <graphic>
+            <FontAwesomeIconView glyphName="USER" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddStaff" prefHeight="193.0" prefWidth="197.0" ripplerFill="#6d9e4f" styleClass="toolbar-button" text="Add Staff">
+         <graphic>
+            <FontAwesomeIconView glyphName="USER" size="25" />
+         </graphic>
+     </JFXButton>
+     <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadAddRoom" prefHeight="193.0" prefWidth="197.0" ripplerFill="#6d9e4f" styleClass="toolbar-button" text="Add Room">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+     </JFXButton>
+     <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadAddSponsor" prefHeight="206.0" prefWidth="197.0" ripplerFill="#6d9e4f" styleClass="toolbar-button" text="Add Sponsor">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+     </JFXButton>
+      <JFXButton buttonType="RAISED" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddEvent" prefHeight="214.0" prefWidth="197.0" ripplerFill="#6d9e4f" styleClass="toolbar-button" text="Add Event">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>   
+   </children>
+</VBox>

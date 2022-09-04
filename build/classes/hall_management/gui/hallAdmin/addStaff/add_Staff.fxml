@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="629.0" prefWidth="600.0" styleClass="custom-pane" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.hallAdmin.addStaff.Add_StaffController">
+   <children>
+      <VBox layoutX="48.0" layoutY="14.0" prefHeight="733.0" prefWidth="485.0" spacing="30.0" AnchorPane.bottomAnchor="398.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <JFXTextField fx:id="st_id" labelFloat="true" promptText="Staff ID" styleClass="text-field2">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField fx:id="st_name" labelFloat="true" promptText="Staff Name" styleClass="text-field2">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <AnchorPane prefHeight="604.0" prefWidth="475.0">
+               <children>
+                  <Label fx:id="bDateLabel" layoutX="22.0" layoutY="101.0" prefHeight="47.0" prefWidth="135.0" styleClass="text-field2" text="Date of Birth" textFill="#21aba7">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXDatePicker fx:id="birthDate" defaultColor="#058d7f" editable="false" layoutX="163.0" layoutY="103.0" prefHeight="38.0" prefWidth="310.0" promptText="Select Date" styleClass="text-field2" />
+                  <JFXComboBox fx:id="jobList" labelFloat="true" layoutX="163.0" layoutY="185.0" prefHeight="47.0" prefWidth="310.0" promptText="Select from the list" styleClass="text-field2" />
+                  <Label fx:id="stJobLabel" layoutX="22.0" layoutY="180.0" prefHeight="57.0" prefWidth="120.0" styleClass="text-field2" text="Staff  Job">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="stSalary" labelFloat="true" layoutX="16.0" layoutY="258.0" prefHeight="51.0" prefWidth="454.0" promptText="Monthly Salary" styleClass="text-field2" />
+                  <Label fx:id="stDateLabel" layoutX="14.0" layoutY="338.0" prefHeight="57.0" prefWidth="135.0" styleClass="text-field2" text="Job Start Date">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXDatePicker fx:id="stDate" editable="false" layoutX="163.0" layoutY="341.0" prefHeight="51.0" prefWidth="310.0" promptText="Select Date" styleClass="text-field2" />
+                  <Label fx:id="endDateLabel" layoutX="14.0" layoutY="424.0" prefHeight="51.0" prefWidth="135.0" styleClass="text-field2" text="Job End Date">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXDatePicker fx:id="endDate" editable="false" layoutX="163.0" layoutY="424.0" prefHeight="51.0" prefWidth="310.0" promptText="Select Date" styleClass="text-field2" />
+                  <JFXButton fx:id="saveButton" layoutX="47.0" layoutY="502.0" onAction="#save" prefHeight="53.0" prefWidth="135.0" ripplerFill="#021b02" styleClass="about-button" text="Save" />
+                  <JFXButton fx:id="cancButton" layoutX="281.0" layoutY="502.0" onAction="#reset" prefHeight="53.0" prefWidth="154.0" styleClass="about-button" text="Cancel" />
+                  <Label fx:id="stWingLabel" layoutX="22.0" layoutY="14.0" prefHeight="51.0" prefWidth="120.0" styleClass="text-field2" text="Wing">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXComboBox fx:id="stWing" labelFloat="true" layoutX="163.0" layoutY="16.0" prefHeight="47.0" prefWidth="310.0" promptText="Select from the list" styleClass="text-field2" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

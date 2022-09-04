@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="686.0" prefWidth="738.0" styleClass="custom-pane" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.admin.updateStudent.Update_studentController">
+   <children>
+      <VBox layoutY="7.0" prefHeight="744.0" prefWidth="745.0" spacing="10.0" AnchorPane.bottomAnchor="-25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="-33.0">
+         <children>
+            <JFXTextField fx:id="s_id" labelFloat="true" promptText="Student ID" styleClass="text-field2">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField fx:id="s_name" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Name" styleClass="text-field2">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <AnchorPane prefHeight="500.0" prefWidth="715.0">
+               <children>
+                  <JFXButton layoutX="446.0" layoutY="354.0" onAction="#cancel" prefHeight="63.0" prefWidth="182.0" text="Cancel" />
+                  <JFXComboBox fx:id="s_hall" focusColor="#d3ff9d" labelFloat="true" layoutX="14.0" layoutY="46.0" prefHeight="63.0" prefWidth="688.0" promptText="Assigned Hall" unFocusColor="#8394e1" />
+                  <JFXButton layoutX="79.0" layoutY="354.0" onAction="#save" prefHeight="63.0" prefWidth="182.0" text="Save" />
+                  <JFXComboBox fx:id="s_status" focusColor="#d3ff9d" labelFloat="true" layoutX="14.0" layoutY="171.0" prefHeight="63.0" prefWidth="688.0" promptText="Status" unFocusColor="#8394e1" />
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+   <padding>
+      <Insets top="40.0" />
+   </padding>
+</AnchorPane>

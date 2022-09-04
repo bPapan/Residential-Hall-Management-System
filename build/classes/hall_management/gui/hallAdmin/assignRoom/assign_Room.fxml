@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="667.0" prefWidth="688.0" styleClass="custom-pane" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.hallAdmin.assignRoom.Assign_RoomController">
+   <padding>
+      <Insets top="40.0" />
+   </padding>
+   <children>
+      <JFXTextField fx:id="roomNo" labelFloat="true" layoutX="39.0" layoutY="194.0" prefHeight="47.0" prefWidth="611.0" promptText="Room No." styleClass="text-field2" />
+      <JFXComboBox fx:id="s_batch" focusColor="#d3ff9d" labelFloat="true" layoutX="37.0" layoutY="94.0" prefHeight="47.0" prefWidth="165.0" promptText="Batch" unFocusColor="#8394e1" />
+      <Label layoutX="37.0" layoutY="23.0" prefHeight="53.0" prefWidth="217.0" text="Student ID" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="s_dept" focusColor="#d3ff9d" labelFloat="true" layoutX="256.0" layoutY="94.0" prefHeight="47.0" prefWidth="178.0" promptText="Dept. Code" unFocusColor="#8394e1" />
+      <JFXComboBox fx:id="s_roll" focusColor="#d3ff9d" labelFloat="true" layoutX="498.0" layoutY="94.0" prefHeight="47.0" prefWidth="149.0" promptText="Roll" unFocusColor="#8394e1" />
+      <JFXButton fx:id="saveButton" layoutX="83.0" layoutY="560.0" onAction="#save" prefHeight="53.0" prefWidth="189.0" text="Save" />
+      <JFXButton fx:id="cancButton" layoutX="458.0" layoutY="560.0" onAction="#cancel" prefHeight="53.0" prefWidth="189.0" text="Cancel" />
+      <Label fx:id="StartDateLabel" layoutX="63.0" layoutY="303.0" prefHeight="47.0" prefWidth="165.0" styleClass="text-field2" text="Start Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="StartDateLabel1" layoutX="63.0" layoutY="417.0" prefHeight="47.0" prefWidth="165.0" styleClass="text-field2" text="End Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="startDate" editable="false" layoutX="272.0" layoutY="301.0" prefHeight="51.0" prefWidth="341.0" promptText="Select Date" styleClass="text-field2" />
+      <JFXDatePicker fx:id="endDate" editable="false" layoutX="272.0" layoutY="415.0" prefHeight="51.0" prefWidth="341.0" promptText="Select Date" styleClass="text-field2" />
+   </children>
+</AnchorPane>

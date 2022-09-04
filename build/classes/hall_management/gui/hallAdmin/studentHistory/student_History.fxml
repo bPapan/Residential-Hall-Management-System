@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="749.0" styleClass="mainFxmlClass" stylesheets="@../../../../items/theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hall_management.gui.hallAdmin.studentHistory.Student_HistoryController">
+   <children>
+      <JFXTextField fx:id="stNameTxtFd" labelFloat="true" layoutX="104.0" layoutY="44.0" prefHeight="44.0" prefWidth="542.0" promptText="Name" styleClass="text-field2" stylesheets="@../../../../items/theme.css" />
+      <JFXTextField fx:id="stIdTextField" labelFloat="true" layoutX="105.0" layoutY="129.0" prefHeight="44.0" prefWidth="542.0" promptText="Student ID" styleClass="text-field2" stylesheets="@../../../../items/theme.css" />
+      <TableView fx:id="historyTable" layoutX="113.0" layoutY="266.0" prefHeight="277.0" prefWidth="542.0">
+        <columns>
+          <TableColumn fx:id="rNoCol" editable="false" prefWidth="147.0" resizable="false" sortable="false" text="Room No" />
+          <TableColumn fx:id="stDateCol" editable="false" prefWidth="214.0" resizable="false" sortable="false" text="Start Date" />
+            <TableColumn fx:id="eDateCol" editable="false" prefWidth="180.0" resizable="false" sortable="false" text="End Date" />
+        </columns>
+      </TableView>
+      <Label fx:id="histTabLabel" layoutX="316.0" layoutY="201.0" prefHeight="35.0" prefWidth="119.0" text="History" textFill="#a2cce4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

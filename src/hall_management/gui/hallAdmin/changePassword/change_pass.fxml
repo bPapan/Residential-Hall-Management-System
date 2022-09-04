@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="502.0" prefWidth="650.0" stylesheets="@../../../../items/theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="hall_management.gui.hallAdmin.changePassword.Change_passController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="119.0" layoutY="390.0" onAction="#handleUpdateButton" prefHeight="53.0" prefWidth="153.0" ripplerFill="#c64b4b" text="Update" />
+      <JFXPasswordField fx:id="new_pass" labelFloat="true" layoutX="69.0" layoutY="238.0" prefHeight="61.0" prefWidth="513.0" promptText="Enter new Password ( max 20 characters )" unFocusColor="#66c388">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </JFXPasswordField>
+      <JFXPasswordField fx:id="curr_pass" labelFloat="true" layoutX="69.0" layoutY="92.0" prefHeight="61.0" prefWidth="513.0" promptText="Enter current Password" unFocusColor="#66c388">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </JFXPasswordField>
+      <JFXButton buttonType="RAISED" layoutX="372.0" layoutY="390.0" onAction="#handleCancelButton" prefHeight="53.0" prefWidth="153.0" ripplerFill="#c64b4b" text="Cancel" />
+   </children>
+</AnchorPane>

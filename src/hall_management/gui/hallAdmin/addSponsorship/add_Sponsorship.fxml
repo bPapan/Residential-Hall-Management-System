@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../../../../items/theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="hall_management.gui.hallAdmin.addSponsorship.Add_SponsorshipController">
+   <children>
+      <JFXTextField fx:id="spIdFd" labelFloat="true" layoutX="39.0" layoutY="35.0" prefHeight="51.0" prefWidth="522.0" promptText="Sponsor ID" styleClass="text-field2" />
+      <JFXTextField fx:id="eIdFd" labelFloat="true" layoutX="39.0" layoutY="125.0" prefHeight="51.0" prefWidth="522.0" promptText="Event ID" styleClass="text-field2" />
+      <JFXTextField fx:id="cntrFd" labelFloat="true" layoutX="39.0" layoutY="220.0" prefHeight="51.0" prefWidth="522.0" promptText="Sponsor Contribution" styleClass="text-field2" />
+      <JFXTextField fx:id="amtFd" layoutX="39.0" layoutY="315.0" prefHeight="51.0" prefWidth="522.0" promptText="Amount of Money" styleClass="text-field2" />
+      <JFXButton fx:id="saveButton" buttonType="RAISED" layoutX="95.0" layoutY="427.0" onAction="#save" prefHeight="63.0" prefWidth="141.0" styleClass="about-button" text="Save" />
+      <JFXButton fx:id="cancButton" layoutX="368.0" layoutY="427.0" onAction="#reset" prefHeight="63.0" prefWidth="141.0" styleClass="about-button" text="Cancel" />
+   </children>
+</AnchorPane>

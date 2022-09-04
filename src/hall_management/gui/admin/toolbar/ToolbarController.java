@@ -40,15 +40,25 @@ public class ToolbarController implements Initializable {
 
     @FXML
     private void loadAddHall(ActionEvent event) {
+        utilities.loadStage(getClass().getResource("/hall_management/gui/admin/addHall/add_hall.fxml"), "Add New Hall", null);
+        
+    
     }
 
 
+
     @FXML
-    private void loadAssignTeacher(ActionEvent event) {
+    private void loadAddFee(ActionEvent event) {
+        
+        utilities.loadStage(getClass().getResource("/hall_management/gui/admin/addFees/add_fee.fxml"), "Add New Fee", null);
+        
     }
 
     @FXML
-    private void loadAssignStudent(ActionEvent event) {
+    private void loadSetupFees(ActionEvent event) {
+        
+        utilities.loadStage(getClass().getResource("/hall_management/gui/admin/setupFees/setup_fee.fxml"), "Set Up Fee", null);
+        
     }
     
     

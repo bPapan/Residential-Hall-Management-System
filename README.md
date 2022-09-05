@@ -132,26 +132,28 @@ The admin can apply a new fee on the students by going to the Set up Fees option
 
 ![Screenshot (802)](https://user-images.githubusercontent.com/37974385/188401674-e187d394-c1c8-4b41-84b1-53adbaf6939a.png)
 
+## Student Features:
 
+A Student can login to the system by entering his/her 7 digit ID and password:
+![Screenshot (842)](https://user-images.githubusercontent.com/37974385/188494878-de7862c0-4091-4c41-a660-26c793da7aec.png)
 
+![Screenshot (825)](https://user-images.githubusercontent.com/37974385/188494916-07ee9f6d-1366-41d7-bcec-9717a5717dbc.png)
 
+He/she can apply for changing the room by selecting a room from the list and clicking on the Apply for Room button.
+![Screenshot (843)](https://user-images.githubusercontent.com/37974385/188495034-25188bfa-fd17-40d2-823a-4ea73603e604.png)
 
+![Screenshot (826)](https://user-images.githubusercontent.com/37974385/188495080-4c55c50a-3e60-495f-8495-702515b249af.png)
 
+If the room is available, the request will be forwarded to the corresponding hall admin
+![Screenshot (827)](https://user-images.githubusercontent.com/37974385/188495093-3c2f0114-8230-4cb3-b00c-86d15f0c609c.png)
 
+If the student requests again for a room change while the previous request is still pending, the student will see an error message.
+![Screenshot (845)](https://user-images.githubusercontent.com/37974385/188496211-14f3434b-6ffb-417a-a1ce-e534e32bac52.png)
 
+![Screenshot (818)](https://user-images.githubusercontent.com/37974385/188495136-86c809cd-5d0f-4f17-b402-e69e6711e91a.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
+In the Payment_Info table, the student will find all the payments
+![Screenshot (844)](https://user-images.githubusercontent.com/37974385/188495604-97772b2c-c117-444b-98dc-25b24ec2a292.png)
 
 
 

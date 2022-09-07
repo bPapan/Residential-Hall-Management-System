@@ -217,8 +217,13 @@ Also he/she can add a new room to the database by selecting the add room option 
 
 
 
+## A few notes from the Developers:
 
+- While developing this project, we did not have any knowledge of version control, so there might be some bugs as our code bases could not be merged properly
+- We used basic JavaFX and Oracle SQL while developing, so we could not introduce some advanced features to our system
+- There are some other features which we have not listed in the readme file. 
 
+Any feedback on our system will be appreciated.
 
 
 

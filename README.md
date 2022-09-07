@@ -155,6 +155,63 @@ If the student requests again for a room change while the previous request is st
 In the Payment_Info table, the student will find all the payments
 ![Screenshot (844)](https://user-images.githubusercontent.com/37974385/188495604-97772b2c-c117-444b-98dc-25b24ec2a292.png)
 
+## Hall Admin features:
+
+The admin of a hall can login to the system by providing the corresponding username and password.
+![Screenshot (847)](https://user-images.githubusercontent.com/37974385/188869897-1ca18e84-785b-44fb-8a2d-d9082f783f3f.png)
+
+The admin can see the notifications by clicking on the 'View' option on the top navigation pane and going to the 'Notifications' option.
+![Screenshot (828)](https://user-images.githubusercontent.com/37974385/188869934-11551708-efdd-44b3-82b6-981ce14b0196.png)
+
+There he/she can see the notification for room change (also other notifications).
+![Screenshot (829)](https://user-images.githubusercontent.com/37974385/188869947-9975ac1d-e148-4266-9241-870132ed0eac.png)
+
+He/she can decide on the request by selecting the row and clicking on the 'Mark Checked' button.
+![Screenshot (830)](https://user-images.githubusercontent.com/37974385/188869972-2885eda1-1c17-4817-ae19-985be6dd5152.png)
+
+![Screenshot (831)](https://user-images.githubusercontent.com/37974385/188869999-1c41ac5e-5792-40cf-b425-38889dd2b46c.png)
+
+![Screenshot (836)](https://user-images.githubusercontent.com/37974385/188870057-d59fd20d-ca8a-473e-9022-3c8ddb304309.png)
+
+![Screenshot (848)](https://user-images.githubusercontent.com/37974385/188870420-960819d4-1f0a-4234-a484-ba6c2ea85097.png)
+
+![Screenshot (849)](https://user-images.githubusercontent.com/37974385/188870443-759a1c5a-5ef2-41ed-b5f1-27c1ee800d74.png)
+
+![Screenshot (852)](https://user-images.githubusercontent.com/37974385/188870979-4611182c-210e-41a3-b9f7-a49143812fb3.png)
+
+![Screenshot (850)](https://user-images.githubusercontent.com/37974385/188871025-b86b3904-1d02-4aec-9e32-b463556316e4.png)
+
+![Screenshot (851)](https://user-images.githubusercontent.com/37974385/188871104-6d9b1a12-ab07-4e31-b401-1a2b4987c1d5.png)
+
+![Screenshot (853)](https://user-images.githubusercontent.com/37974385/188872388-c9407486-5c92-4bae-a1e3-e1d1a96f62c6.png)
+
+![Screenshot (854)](https://user-images.githubusercontent.com/37974385/188872425-622f7164-a6ff-4f69-8dfa-b76e99e664d3.png)
+
+![Screenshot (855)](https://user-images.githubusercontent.com/37974385/188872458-6cea08eb-2ff7-4804-8534-c0f63afa7a08.png)
+
+![Screenshot (856)](https://user-images.githubusercontent.com/37974385/188872482-24bd62a4-0769-4f7a-86b8-e65646b11bef.png)
+
+![Screenshot (857)](https://user-images.githubusercontent.com/37974385/188872529-3e022fc2-abd1-4db5-8b8d-2fd1ad77e9d9.png)
+
+![Screenshot (858)](https://user-images.githubusercontent.com/37974385/188872549-2cb8b5e8-c9c3-4960-9744-89ae2b617196.png)
+
+![Screenshot (859)](https://user-images.githubusercontent.com/37974385/188872636-2e1fc544-f1c4-4c53-9eb5-209d3b87021a.png)
+
+![Screenshot (860)](https://user-images.githubusercontent.com/37974385/188872656-9308db53-60fb-48e8-8fa8-2826a1907d49.png)
+
+![Screenshot (861)](https://user-images.githubusercontent.com/37974385/188872684-e0f4d4ca-1dd5-4bb9-9d51-41f2e27b4198.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

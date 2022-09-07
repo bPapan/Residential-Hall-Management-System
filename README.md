@@ -171,20 +171,26 @@ He/she can decide on the request by selecting the row and clicking on the 'Mark 
 
 ![Screenshot (831)](https://user-images.githubusercontent.com/37974385/188869999-1c41ac5e-5792-40cf-b425-38889dd2b46c.png)
 
-![Screenshot (836)](https://user-images.githubusercontent.com/37974385/188870057-d59fd20d-ca8a-473e-9022-3c8ddb304309.png)
-
+Also the admin can change the assigned room of a student by selecting the entry for the student and clicking on the 'Assign/Change Room' button.
 ![Screenshot (848)](https://user-images.githubusercontent.com/37974385/188870420-960819d4-1f0a-4234-a484-ba6c2ea85097.png)
 
 ![Screenshot (849)](https://user-images.githubusercontent.com/37974385/188870443-759a1c5a-5ef2-41ed-b5f1-27c1ee800d74.png)
 
+If the hall admin enters a room no. that is invalid, he/she will get the following error:
 ![Screenshot (852)](https://user-images.githubusercontent.com/37974385/188870979-4611182c-210e-41a3-b9f7-a49143812fb3.png)
 
+Otherwise, the entry for the student will be updated.
 ![Screenshot (850)](https://user-images.githubusercontent.com/37974385/188871025-b86b3904-1d02-4aec-9e32-b463556316e4.png)
 
 ![Screenshot (851)](https://user-images.githubusercontent.com/37974385/188871104-6d9b1a12-ab07-4e31-b401-1a2b4987c1d5.png)
 
+The hall admin can also see the history of a student in the hall (which rooms he/she has resided in) by clicking on the 'View History' button.
+![Screenshot (838)](https://user-images.githubusercontent.com/37974385/188875118-c6371264-4f08-4809-8fcc-bb6ab19cc60e.png)
+
+In the 'View Staff' page, the admin can see the list of the staff in the hall. 
 ![Screenshot (853)](https://user-images.githubusercontent.com/37974385/188872388-c9407486-5c92-4bae-a1e3-e1d1a96f62c6.png)
 
+He/she can update the duty of a staff by selecting his/her name from the staff table and clicking on the 'Update' button.
 ![Screenshot (854)](https://user-images.githubusercontent.com/37974385/188872425-622f7164-a6ff-4f69-8dfa-b76e99e664d3.png)
 
 ![Screenshot (855)](https://user-images.githubusercontent.com/37974385/188872458-6cea08eb-2ff7-4804-8534-c0f63afa7a08.png)
@@ -193,17 +199,21 @@ He/she can decide on the request by selecting the row and clicking on the 'Mark 
 
 ![Screenshot (857)](https://user-images.githubusercontent.com/37974385/188872529-3e022fc2-abd1-4db5-8b8d-2fd1ad77e9d9.png)
 
-![Screenshot (858)](https://user-images.githubusercontent.com/37974385/188872549-2cb8b5e8-c9c3-4960-9744-89ae2b617196.png)
-
+Also, the hall admin can add a new staff member by selecting the 'Add Staff' option from the right navigation pane.
 ![Screenshot (859)](https://user-images.githubusercontent.com/37974385/188872636-2e1fc544-f1c4-4c53-9eb5-209d3b87021a.png)
 
 ![Screenshot (860)](https://user-images.githubusercontent.com/37974385/188872656-9308db53-60fb-48e8-8fa8-2826a1907d49.png)
 
 ![Screenshot (861)](https://user-images.githubusercontent.com/37974385/188872684-e0f4d4ca-1dd5-4bb9-9d51-41f2e27b4198.png)
 
+The hall admin can see the list of the rooms in the 'View Rooms' page.
+![Screenshot (858)](https://user-images.githubusercontent.com/37974385/188872549-2cb8b5e8-c9c3-4960-9744-89ae2b617196.png)
 
+Also he/she can add a new room to the database by selecting the add room option from the right navigation pane. 
 
+![Screenshot (862)](https://user-images.githubusercontent.com/37974385/188874989-a4ff79ac-639e-484e-9d81-d9935cfcb871.png)
 
+![Screenshot (863)](https://user-images.githubusercontent.com/37974385/188875007-208ba269-3313-45de-b2f5-490d038f80cf.png)
 
 
 
